@@ -10,3 +10,31 @@
 
   overflow: scroll;
 }
+
+.page_filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.page_filter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.page_filters p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.page_filter label {
+  font-size: 18px;
+}
+
+.page_filter select {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
