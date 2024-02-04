@@ -1,0 +1,12 @@
+.page {
+  height: calc(100vh - 20px);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.page_tasks {
+  flex: 1;
+
+  overflow: scroll;
+}
